@@ -1,0 +1,29 @@
+.counter > .counter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.counter-form > .counter-number {
+  font-size: 24px;
+}
+
+.counter-form > .button {
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #6e6e6e;
+  border: none;
+}
+
+.counter > .button {
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #6e6e6e;
+  border: none;
+}
