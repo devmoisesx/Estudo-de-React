@@ -10,20 +10,12 @@
   font-size: 24px;
 }
 
-.counter-form > .button {
-  color: white;
-  font-size: 16px;
-  padding: 5px 15px;
-  border-radius: 10px;
-  background-color: #6e6e6e;
-  border: none;
-}
-
+.counter-form > .button,
 .counter > .button {
-  color: white;
+  color: var(--color-second);
   font-size: 16px;
   padding: 5px 15px;
   border-radius: 10px;
-  background-color: #6e6e6e;
+  background-color: var(--color-third);
   border: none;
 }
