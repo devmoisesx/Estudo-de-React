@@ -1,3 +1,4 @@
+import Title from "../../objects/Title";
 import "./styles.css";
 
 const Home = () => {
@@ -5,7 +6,7 @@ const Home = () => {
 
   return (
     <>
-      <h1 className="title">Pagina Inicial</h1>
+      <Title level={1}>Página inicial</Title>
     </>
   );
 };

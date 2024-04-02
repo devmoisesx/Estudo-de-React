@@ -1,4 +1,5 @@
 import ListObject from "../../objects/ListObject";
+import Title from "../../objects/Title";
 import "./styles.css";
 
 const List = () => {
@@ -8,7 +9,7 @@ const List = () => {
 
   return (
     <article className="list">
-      <h1 className="title">Listas</h1>
+      <Title level={1}>Listas</Title>
 
       <ListObject list={list} />
     </article>

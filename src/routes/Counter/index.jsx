@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Title from "../../objects/Title";
 import "./styles.css";
 
 const Counter = () => {
@@ -14,7 +15,7 @@ const Counter = () => {
 
   return (
     <article className="counter">
-      <h1 className="title">Contador</h1>
+      <Title level={1}>Contador</Title>
       <div className="counter-form">
         <button className="button" onClick={() => setCounter(--counter)}>
           -
