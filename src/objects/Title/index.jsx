@@ -1,5 +1,3 @@
-import React from "react";
-
 const Title = ({ level, children }) => {
   return level === 1 ? (
     <h1>{children}</h1>
