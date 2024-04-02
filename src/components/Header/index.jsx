@@ -19,6 +19,9 @@ const Header = () => {
           <li className="link">
             <Link to="/List">Lista</Link>
           </li>
+          <li className="link">
+            <Link to="/erro">Error</Link>
+          </li>
         </ul>
       </nav>
       <button className="theme-button" onClick={toggleTheme}>

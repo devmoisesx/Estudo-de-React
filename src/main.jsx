@@ -12,11 +12,13 @@ import "./styles/elements/base.css";
 import "./styles/settings/colors.css";
 import "./styles/settings/sizes.css";
 import "./styles/settings/spacing.css";
+import ErrorPage from "./routes/ErrorPage/index.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
