@@ -2,13 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
-import "./styles/generic/reset.css";
-import "./styles/elements/base.css";
 import Home from "./routes/Home/index.jsx";
 import Counter from "./routes/Counter/index.jsx";
 import List from "./routes/List/index.jsx";
 import { ThemeProvider } from "./context/ThemeContext";
+import "./index.css";
+import "./styles/generic/reset.css";
+import "./styles/elements/base.css";
+import "./styles/settings/colors.css";
+import "./styles/settings/sizes.css";
+import "./styles/settings/spacing.css";
 
 const router = createBrowserRouter([
   {
